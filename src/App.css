@@ -1,0 +1,141 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("background.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mainform {
+  background: #1a1a40ef;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.inputtodo {
+  outline: none;
+  background: none;
+  border: 1px solid #a6c4d7;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+
+button {
+  background: #2b5aa1;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease; 
+}
+
+button:hover {
+  background-color: #4b8bc4; 
+  transform: scale(1.05); 
+}
+
+button:active {
+  transform: scale(0.95); 
+}
+
+.listtodo {
+  display: flex;
+  flex-direction: column; 
+  background: #6172b7a0;
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.itemtodo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #c6d5f780;
+  color: #0d3a47;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.completedtodo {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.384);
+}
+
+.actionstodo button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease; 
+}
+
+.actionstodo button:hover {
+  background-color: #4b8bc4; 
+  transform: scale(1.05); 
+}
+
+.actionstodo button:active {
+  transform: scale(0.95); 
+}
+
+.actionstodo button:disabled {
+  background-color: #b3c6eaaf;
+  cursor: not-allowed;
+  color: #e7e8e8f0;
+}
+
+.inputedit {
+  outline: none;
+  background: #ffffff48;
+  border: 3px dashed #ffffff67;
+  width: 675px;
+  color: #152151bb;
+}
+
+.buttonsave {
+  padding: 5px 10px;
+  margin-left: 5px;
+  transition: transform 0.2s ease, background-color 0.3s ease; 
+}
+
+.buttonsave:hover {
+  background-color: #4b8bc4; 
+  transform: scale(1.05); 
+}
+
+.buttonsave:active {
+  transform: scale(0.95); 
+}
+
+p {
+  background: #6171b7;
+  padding: 4%;
+  border-radius: 6px;
+  color: #c7dade;
+}
+
+h1 {
+  margin-top: 3%;
+  background-color: #1A1A40;
+  padding: 2%;
+  text-align: center;
+  color: white;
+}
